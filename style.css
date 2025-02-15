@@ -239,6 +239,7 @@ button {
   border-radius: 0.625rem;
   color: #01204e;
   border: solid 0.0625rem;
+  cursor: pointer;
 }
 
 .btn-green:hover {
@@ -252,6 +253,7 @@ button {
   font-size: 1.2rem;
   color: #01204e;
   border: solid 0.0625rem;
+  cursor: pointer;
 }
 .btn-orange:hover {
   background-color: #01204e9e;
@@ -263,6 +265,7 @@ button {
   border-radius: 0.625rem;
   color: #ff9f56;
   border: solid 0.0625rem;
+  cursor: pointer;
 }
 .btn-pupple:hover {
   background-color: #01204e9e;
@@ -978,9 +981,11 @@ footer {
   }
 
   .photoSize {
+    display: flex;
     width: 100%;
-    height: 18rem;
+    height: 10rem;
     object-position: top;
+
   }
 
   .rightItem1 {
@@ -1016,7 +1021,7 @@ footer {
 
   .photoSize2 {
     width: 100%;
-    height: 17.5rem;
+    height: 12.5rem;
   }
 
   .photoItem2 {
@@ -1073,7 +1078,7 @@ footer {
 
   .photoSize3 {
     width: 100%;
-    height: 20.1rem;
+    height: 15rem;
   }
 
   .rightText {
